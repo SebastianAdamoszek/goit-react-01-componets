@@ -1,0 +1,33 @@
+.title {
+  background-color: rgb(241, 247, 252);
+  padding: 15px;
+}
+.statistics {
+  margin: 20px;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  background-color: rgb(221, 221, 221);
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+.stat__list {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: auto;
+  height: auto; 
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 10px;
+}
+
+.percentage,
+.label {
+  color: #fff;
+  mix-blend-mode: difference;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
