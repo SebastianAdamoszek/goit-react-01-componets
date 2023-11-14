@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styles from './Statistics.module.css';
-import { getRandomColor } from '../utils/getRandomColor'
+import { getRandomColor } from '../../utils/getRandomColor'
 
 const Statistics = ({ title, stats }) => {
   return (
